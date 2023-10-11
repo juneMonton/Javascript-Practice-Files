@@ -1,8 +1,10 @@
 //01. Convert a Number to a String!
 
 function numberToString(num){
-    return numberToString.toString();
+    return num.toString();
 }
+
+console.log(numberToString(2))
 
 //function numberToString(num){
 //  return String(num);
@@ -20,6 +22,8 @@ function disemvowel(str){
     return str.replace(/[aeiou]/gi,'');
 }
 
+console.log(disemvowel("jenelyn delin"))
+
 //disemvowel = str => str.replace(/[aeiou]/gi,'');
 
 
@@ -33,3 +37,12 @@ function disemvowel(str){
 //3. '': This is an empty string that is used as the replacement for each match found in the string. Since it's empty, it effectively removes the matched vowels.
 
 //So, when you call disemvowel("Hello, World!"), it will return "Hll, Wrld!" because it removed all the vowels from the input string.
+
+
+//03. Complete the function which converts a binary number (given as a string) to a decimal number.
+
+function binToDec(bin){
+    return parseInt(bin,2);
+  }
+
+  
